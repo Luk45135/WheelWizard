@@ -35,7 +35,7 @@ buildDotnetModule {
 
   desktopItems = makeDesktopItem {
     name = "wheelwizard";
-    genericname = "Mario Kart Wii Mod Manager";
+    genericName = "Mario Kart Wii Mod Manager";
     comment = "Mario Kart Wii Mod Manager & Retro Rewind Auto Updater";
     desktopName = "WheelWizard";
     exec = "WheelWizard";
