@@ -24,6 +24,8 @@ buildDotnetModule {
   executeables = ["WheelWizard"];
   useAppHost = true;
 
+  nativeBuildInputs = [icoutils];
+
   postInstall =
     ''
       icotool --icon -x car-wheel.ico
