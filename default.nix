@@ -9,7 +9,7 @@ buildDotnetModule {
   version = "2.2.1";
 
   src = ./.;
-  projectFile = "WheelWizard.sln";
+  projectFile = "WheelWizard/WheelWizard.csproj";
 
   dotnet-sdk = dotnetCorePackages.sdk_8_0;
   dotnet-runtime = dotnetCorePackages.runtime_8_0;
