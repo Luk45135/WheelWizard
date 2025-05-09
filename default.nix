@@ -16,7 +16,11 @@ buildDotnetModule {
 
   nugetDeps = ./deps.json;
 
+  dotnetBuildFlags = [
+    "-p:IncludeAllContentForSelfExtract=true -p:IncludeNativeLibrariesForSelfExtract=true -p:EnableCompressionInSingleFile=true"
+  ];
   executeables = ["WheelWizard"];
+  useAppHost = true;
 }
 
 
