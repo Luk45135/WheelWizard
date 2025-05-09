@@ -3,7 +3,6 @@
   buildDotnetModule,
   dotnetCorePackages,
   makeDesktopItem,
-  icoutils,
 }:
 buildDotnetModule {
   pname = "WheelWizard";
@@ -24,16 +23,9 @@ buildDotnetModule {
   executeables = ["WheelWizard"];
   useAppHost = true;
 
-  nativeBuildInputs = [icoutils];
-
-  postInstall =
-    ''
-      icotool --icon -x car-wheel.ico
-      for i in 16 32 48 256; do
-        size=''${i}x''${i}
-        install -Dm444 *_''${size}x32.png $out/share/icons/hicolor/$size/apps/car-wheel.png
-      done
-    '';
+  postInstall = ''
+    install -Dm444 Flatpak/io.github.TeamWheelWizard.WheelWizard.png $out/share/icons/hicolor/256x256/apps/car-wheel.png
+  '';
 
   desktopItems = makeDesktopItem {
     name = "wheelwizard";
