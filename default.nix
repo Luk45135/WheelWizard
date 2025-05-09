@@ -39,9 +39,7 @@ buildDotnetModule {
     icon = "car-wheel";
     type = "Application";
     terminal = false;
-    categories = [
-      "Game"
-    ];
+    categories = ["Game"];
   }) ];
 }
 
