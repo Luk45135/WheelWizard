@@ -3,6 +3,7 @@
   buildDotnetModule,
   dotnetCorePackages,
   makeDesktopItem,
+  copyDesktopItems,
 }:
 buildDotnetModule {
   pname = "WheelWizard";
@@ -23,11 +24,13 @@ buildDotnetModule {
   executeables = ["WheelWizard"];
   useAppHost = true;
 
+  nativeBuildInputs = [copyDesktopItems];
+
   postInstall = ''
     install -Dm444 Flatpak/io.github.TeamWheelWizard.WheelWizard.png $out/share/icons/hicolor/256x256/apps/car-wheel.png
   '';
 
-  desktopItems = makeDesktopItem {
+  desktopItems = [ (makeDesktopItem {
     name = "wheelwizard";
     genericName = "Mario Kart Wii Mod Manager";
     comment = "Mario Kart Wii Mod Manager & Retro Rewind Auto Updater";
@@ -39,7 +42,7 @@ buildDotnetModule {
     categories = [
       "Game"
     ];
-  };
+  }) ];
 }
 
 
