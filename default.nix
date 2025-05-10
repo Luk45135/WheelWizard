@@ -16,6 +16,7 @@ buildDotnetModule {
   dotnet-runtime = dotnetCorePackages.runtime_8_0;
 
   nugetDeps = ./deps.json;
+  selfContainedBuild = true;
 
   dotnetBuildFlags = [
     "-p:IncludeAllContentForSelfExtract=true -p:IncludeNativeLibrariesForSelfExtract=true -p:EnableCompressionInSingleFile=true"
