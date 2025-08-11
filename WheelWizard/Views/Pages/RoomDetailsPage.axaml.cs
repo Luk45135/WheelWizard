@@ -3,12 +3,15 @@ using System.ComponentModel;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using WheelWizard.Models.RRInfo;
+using WheelWizard.Resources.Languages;
 using WheelWizard.Services.LiveData;
 using WheelWizard.Shared.DependencyInjection;
 using WheelWizard.Utilities.Mockers;
 using WheelWizard.Utilities.RepeatedTasks;
 using WheelWizard.Views.Popups.MiiManagement;
 using WheelWizard.WiiManagement;
+using WheelWizard.WiiManagement.GameLicense;
+using WheelWizard.WiiManagement.MiiManagement;
 
 namespace WheelWizard.Views.Pages;
 
@@ -93,7 +96,7 @@ public partial class RoomDetailsPage : UserControlBase, INotifyPropertyChanged, 
         if (PlayersListView.SelectedItem is not RrPlayer selectedPlayer)
             return;
         TopLevel.GetTopLevel(this)?.Clipboard?.SetTextAsync(selectedPlayer.Fc);
-        ViewUtils.ShowSnackbar("Copied friend code to clipboard");
+        ViewUtils.ShowSnackbar(Phrases.SnackbarSuccess_CopiedFC);
     }
 
     private void OpenCarousel_OnClick(object sender, RoutedEventArgs e)

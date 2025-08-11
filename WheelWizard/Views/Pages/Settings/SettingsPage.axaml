@@ -26,7 +26,7 @@
                 <RadioButton Classes="TopBar" Tag="VideoSettings" 
                              Click="TopBarRadio_OnClick" Content="{x:Static lang:Settings.Category_Video}"/>
                 <RadioButton Classes="TopBar" Tag="OtherSettings" 
-                             Click="TopBarRadio_OnClick" Content="{x:Static lang:Common.Term_Other}" />
+                             Click="TopBarRadio_OnClick" Content="{x:Static lang:Settings.Category_Other}" />
                 <RadioButton Classes="TopBar" Tag="AppInfo"
                              Click="TopBarRadio_OnClick" Content="{x:Static lang:Settings.Category_About}" />
             </StackPanel>

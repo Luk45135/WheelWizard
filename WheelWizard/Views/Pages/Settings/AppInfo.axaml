@@ -54,15 +54,7 @@
                         <SelectableTextBlock Classes="TinyText" Text="If you are willing to translate for Retro Rewind and Wheel Wizard, " />
                         <SelectableTextBlock Classes="TinyText" Text="be sure to reach out to Eppe or WantToBeeMe :)" />
                     </StackPanel>
- 
-                    <Border Grid.Column="1" ToolTip.Placement="Top" ToolTip.ShowDelay="50"
-                            ToolTip.Tip="Thanks to all the translations: 
- Weebo, kytronix, Noël, Haru00007, JGavidia, Sep, OrangeCake_, Ismy, rhyy, Sinseiga, CaXaP, StationAlpha, yawshi, StHydrated
-                            "
-                            VerticalAlignment="Top" HorizontalAlignment="Right">
-                        <PathIcon Data="{StaticResource InfoTip}" Width="14" Height="14"
-                                  Foreground="{StaticResource FormFieldLabelColor}" />
-                    </Border>
+                    
                 </Grid>
             </Border>
             
