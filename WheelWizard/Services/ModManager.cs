@@ -189,6 +189,7 @@ public class ModManager : INotifyPropertyChanged
     // TODO: Use this validation method when refactoring the ModManager
     public OperationResult ValidateModName(string? oldName, string newName)
     {
+        newName = newName?.Trim();
         if (string.IsNullOrWhiteSpace(newName))
             return Fail("Mod name cannot be empty.");
 

@@ -236,7 +236,7 @@ Vuoi svuotare la tua cartella My-Stuff?</value>
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>Ancora nessun Mii!</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
         <value>Il nome dell'autore deve essere lungo al massimo 10 caratteri.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">

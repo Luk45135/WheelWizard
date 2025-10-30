@@ -375,8 +375,8 @@ To join a specific room, you'll need to either join through a friend, or hope to
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Names must be between 3 and 10 characters long.</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Creator name must be less than 10 characters long.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Creator name must be less than 11 characters long.</value>
     </data>
     <data name="MessageError_FailedChangeName_Title" xml:space="preserve">
         <value>Failed to change name</value>

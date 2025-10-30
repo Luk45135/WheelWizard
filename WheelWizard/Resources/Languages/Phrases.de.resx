@@ -235,8 +235,8 @@ Um einem bestimmten Raum beizutreten, musst du entweder über einen Freund treff
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>Noch keine Miis erstellt!</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Name des Ersteller muss weniger als 10 Zeichen lang sein.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Name des Ersteller muss weniger als 11 Zeichen lang sein.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Namen müssen zwischen 3 und 10 Zeichen lang sein.</value>

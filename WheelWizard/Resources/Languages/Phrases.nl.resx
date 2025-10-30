@@ -358,8 +358,8 @@ Om aan een specifieke kamer deel te nemen, moet je dit óf via een vriend óf vi
     <data name="SnackbarSuccess_ProfileSetPrimary" xml:space="preserve">
         <value>Profiel als hoofdprofiel geselecteerd.</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Naam moet korter dan 10 tekens zijn.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Naam moet korter dan 11 tekens zijn.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Naam moet tussen de 3 en 10 tekens lang zijn.</value>

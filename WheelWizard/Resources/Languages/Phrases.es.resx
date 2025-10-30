@@ -234,8 +234,8 @@
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>No hay Miis todavía!</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>El nombre del creador tiene que tener menos de 10 caracteres.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>El nombre del creador tiene que tener menos de 11 caracteres.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Los nombres tienen que tener entre 3 y 10 caracteres.</value>

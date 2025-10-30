@@ -159,11 +159,11 @@ namespace WheelWizard.Resources.Languages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Creator name must be less than 10 characters long..
+        ///   Looks up a localized string similar to Creator name must be less than 11 characters long..
         /// </summary>
-        public static string HelperNote_CreatorNameLess10 {
+        public static string HelperNote_CreatorNameLess11 {
             get {
-                return ResourceManager.GetString("HelperNote_CreatorNameLess10", resourceCulture);
+                return ResourceManager.GetString("HelperNote_CreatorNameLess11", resourceCulture);
             }
         }
         

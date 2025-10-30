@@ -238,8 +238,8 @@ Voulez-vous réinstaller Retro Rewind ? </value>
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>Aucun Mii!</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Le nom de l'auteur doit faire moins de 10 caractères.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Le nom de l'auteur doit faire moins de 11 caractères.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Les noms doivent être composés de 3 à 10 caractères.</value>

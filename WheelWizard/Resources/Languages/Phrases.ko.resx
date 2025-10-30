@@ -235,7 +235,7 @@
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>아직 Mii가 없어요!</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
         <value>작성자 이름은 반드시 10자 이내여야 합니다.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">

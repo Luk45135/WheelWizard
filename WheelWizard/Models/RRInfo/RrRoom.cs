@@ -26,9 +26,11 @@ public class RrRoom
             "vs_10" => "RR",
             "vs_11" => "TT",
             "vs_12" => "200",
+            "vs_13" => "IR",
+            "vs_14" => "BT",
+            "vs_15" => "EBT",
             "vs_20" => "RR Ct",
-            "vs_21" => "TT Ct",
-            "vs_22" => "200 Ct",
+            "vs_21" => "RR V",
 
             // CTGP_C
             "vs_668" => "CTGP-C",
@@ -52,6 +54,7 @@ public class RrRoom
 
             // Luminous
             "vs_666" => "Lumi",
+            "vs_667" => "Lumi TT",
 
             // OptPack
             "vs_875" => "OP 150",
@@ -65,6 +68,8 @@ public class RrRoom
             "vs_1312" => "WTP 150",
             "vs_1313" => "WTP 200",
             "vs_1314" => "WTP TT",
+            "vs_1315" => "WTP IR",
+            "vs_1316" => "STYD",
 
             // Generic Versus
             "vs_751" => "VS",
@@ -82,9 +87,11 @@ public class RrRoom
             "vs_10" => "RR 150CC",
             "vs_11" => "RR Time Tr",
             "vs_12" => "RR 200CC",
+            "vs_13" => "RR Item Rain",
+            "vs_14" => "RR Battle",
+            "vs_15" => "RR Elim Battle",
             "vs_20" => "RR 150CC CTs",
-            "vs_21" => "RR TT CTs",
-            "vs_22" => "RR 200CC CTs",
+            "vs_21" => "RR Vanilla",
 
             // CTGP
             "vs_668" => "CTGP-C",
@@ -108,6 +115,7 @@ public class RrRoom
 
             // Luminous
             "vs_666" => "Luminous",
+            "vs_667" => "Luminous TT",
 
             // OptPack
             "vs_875" => "OP 150",
@@ -121,6 +129,8 @@ public class RrRoom
             "vs_1312" => "WTP 150CC",
             "vs_1313" => "WTP 200CC",
             "vs_1314" => "WTP Time Trial",
+            "vs_1315" => "WTP Item Rain",
+            "vs_1316" => "WTP STYD",
 
             // Generic
             "vs_751" => "Versus",

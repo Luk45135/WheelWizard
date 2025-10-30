@@ -288,8 +288,8 @@
     <data name="EmptyContent_NoModSelected" xml:space="preserve">
         <value>Выберите мод из списка, чтобы узнать подробности.</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Имя создателя должно быть длиной в меньше 10 символов.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Имя создателя должно быть длиной в меньше 11 символов.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Имена должны быть длиной от 3 до 10 символов.</value>

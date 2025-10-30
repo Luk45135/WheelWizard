@@ -82,6 +82,7 @@ public partial class EditorGeneral : MiiEditorBaseControl
 
     private OperationResult ValidateMiiName(string? _, string newName)
     {
+        newName = newName?.Trim();
         if (newName.Length is > 10 or < 3)
             return Fail(Phrases.HelperNote_NameMustBetween);
 
@@ -90,8 +91,9 @@ public partial class EditorGeneral : MiiEditorBaseControl
 
     private OperationResult ValidateCreatorName(string newName)
     {
+        newName = newName?.Trim();
         if (newName.Length > 10)
-            return Fail(Phrases.HelperNote_CreatorNameLess10);
+            return Fail(Phrases.HelperNote_CreatorNameLess11);
 
         return Ok();
     }

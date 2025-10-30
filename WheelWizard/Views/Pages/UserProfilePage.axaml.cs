@@ -285,6 +285,7 @@ public partial class UserProfilePage : UserControlBase, INotifyPropertyChanged
     // But we as team wheel wizard don't think it makes sense to have a mii name shorter than 3, and so from the UI we don't allow it
     private OperationResult ValidateMiiName(string? oldName, string newName)
     {
+        newName = newName?.Trim();
         if (newName.Length is > 10 or < 3)
             return Fail(Phrases.HelperNote_NameMustBetween);
 

@@ -235,8 +235,8 @@ Belirli bir odaya katılmak için bir arkadaşınız aracılığıyla katılman�
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>Şimdilik Mii yok!</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Yapımcı adı 10 karakterden kısa olması gerekiyor.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Yapımcı adı 11 karakterden kısa olması gerekiyor.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Adın 3 ile 10 karakter arasında olması gerekiyor.</value>

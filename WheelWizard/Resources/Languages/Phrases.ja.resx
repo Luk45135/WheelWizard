@@ -240,7 +240,7 @@ My Stuffフォルダーをクリアしますか？</value>
     <data name="EmptyContent_NoMiis_Title" xml:space="preserve">
         <value>まだMiiがありません！</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
         <value>作成者の名前の長さは10文字以下にしてください</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">

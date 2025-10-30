@@ -90,8 +90,8 @@
     <data name="EmptyContent_NoRooms" xml:space="preserve">
         <value>Možná nemáš připojení k internetu, nebo nikdo nehraje.</value>
     </data>
-    <data name="HelperNote_CreatorNameLess10" xml:space="preserve">
-        <value>Jméno tvůrce musí být kratší než 10 znaků.</value>
+    <data name="HelperNote_CreatorNameLess11" xml:space="preserve">
+        <value>Jméno tvůrce musí být kratší než 11 znaků.</value>
     </data>
     <data name="HelperNote_NameMustBetween" xml:space="preserve">
         <value>Jména musí mít délku 3 až 10 znaků.</value>
